@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Запустити файл як модуль",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "${relativeFileDirname}.${fileBasenameNoExtension}", // Тут замініть на ім'я вашого модуля
+      "cwd": "${workspaceFolder}", // Коренева директорія проєкту
+      "console": "integratedTerminal" // Для зручного перегляду виводу
+    }
+  ]
+}
